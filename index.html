@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Straw Hat Fireworks 🏴‍☠️</title>
+    <link rel="icon" type="image/x-icon" href="./assets/luffy.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="text-container">
+      <h1>Set Sail!</h1>
+      <p>Click the crewmate to cycle through the whole crew</p>
+    </div>
+
+    <div class="image-container">
+      <img id="avatar" src="./assets/luffy.png" alt="crew avatar" />
+    </div>
+
+    <canvas id="canvas-background"></canvas>
+    <canvas id="canvas-fireworks"></canvas>
+
+    <button id="mute-toggle" aria-label="Mute or unmute music">🔊</button>
+    <audio id="theme-song" src="./assets/theme.mp3" loop></audio>
+
+    <script src="avatar-toggle.js"></script>
+    <script src="canvas-background.js"></script>
+    <script src="canvas-fireworks.js"></script>
+    <script src="audio-control.js"></script>
+  </body>
+</html>
